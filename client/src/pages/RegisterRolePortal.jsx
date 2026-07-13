@@ -5,6 +5,7 @@ import {
   User,
   Users,
   Building2,
+  Hospital,
   Radio,
   CloudSun,
   ShieldCheck,
@@ -27,10 +28,17 @@ const roles = [
     path: "/volunteer/register",
   },
   {
+  title: "Register as NGO",
+  description:
+    "Register your NGO to provide emergency support, relief services, and assistance to pilgrims during the journey.",
+  icon: Building2,
+  path: "/ngo/register",
+},
+  {
     title: "Register as Hospital",
     description:
       "Connect your hospital with YatraSetu for emergency medical support.",
-    icon: Building2,
+    icon: Hospital,
     path: "/hospital/register",
   },
   {
