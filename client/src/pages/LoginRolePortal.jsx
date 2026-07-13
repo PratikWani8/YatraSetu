@@ -5,6 +5,7 @@ import {
   User,
   Users,
   Building2,
+  Hospital,
   Radio,
   CloudSun,
   ShieldCheck,
@@ -27,10 +28,17 @@ const roles = [
     path: "/volunteer/login",
   },
   {
+  title: "Login as NGO",
+  description:
+    "Sign in to your NGO account to manage relief operations, volunteers, and emergency support requests.",
+  icon: Building2,
+  path: "/ngo/login",
+},
+  {
     title: "Login as Hospital",
     description:
       "View emergency requests, patient information and ambulance updates.",
-    icon: Building2,
+    icon: Hospital,
     path: "/hospital/login",
   },
   {
