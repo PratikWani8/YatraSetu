@@ -6,7 +6,7 @@ import GroqChatbot from "./GroqChatbot";
 
 function Hero() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-6 pt-4 pb-10 md:pt-4 md:pb-16 gap-12">
+    <section className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-6 py-10 md:py-16 gap-12">
       
       {/* Left Content */}
       <motion.div
@@ -45,7 +45,7 @@ function Hero() {
 
         {/* Description */}
         <p className="text-gray-600 mb-8 text-sm sm:text-base leading-relaxed">
-          A smart A.I based platform for pilgrims to report safety incidents,
+          A smart platform for pilgrims to report safety incidents,
           send emergency SOS alerts and track complaint status securely.
         </p>
 
