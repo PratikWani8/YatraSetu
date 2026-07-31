@@ -1,3 +1,4 @@
+import { BASE_URL } from "@/api/api";
 import { motion } from "framer-motion";
 import {
   Bell,
@@ -95,7 +96,7 @@ export default function Header({ user }) {
           <img
             src={
               user?.photo
-                ? `http://localhost:5000${user.photo}`
+                ? `${BASE_URL}${user.photo}`
                 : "https://ui-avatars.com/api/?name=Pilgrim"
             }
             alt="Profile"
