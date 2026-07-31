@@ -230,6 +230,9 @@ function SidebarContent({
           )}
 
         </button>
+        <p className="mt-4 text-center text-xs text-white-400">
+            © {new Date().getFullYear()} YatraSetu 
+          </p>
 
       </div>
     </>
