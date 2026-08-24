@@ -146,5 +146,6 @@ Backend:
 ```text
 http://localhost:5000
 ```
-
-
+---
+## ⭐ Support
+If you found this project helpful, consider giving it a star ⭐ on GitHub!
