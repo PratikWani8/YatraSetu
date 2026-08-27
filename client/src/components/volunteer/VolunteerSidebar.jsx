@@ -269,6 +269,9 @@ useEffect(() => {
 
           {!collapsed && "Logout"}
         </button>
+        <p className="mt-4 text-center text-xs text-gray-400">
+            © {new Date().getFullYear()} YatraSetu 
+          </p>
       </div>
     </aside>
 
