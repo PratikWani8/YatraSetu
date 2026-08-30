@@ -42,6 +42,7 @@ const userSchema = new mongoose.Schema(
         "pilgrim",
         "volunteer",
         "ngo",
+        "weather_officer",
         "medical",
         "hospital",
         "police",
